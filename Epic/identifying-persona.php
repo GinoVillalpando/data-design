@@ -7,7 +7,7 @@
   </head>
 	<body>
 	<h1>Niche Gamer!</h1>
-			<a href="https://twitter.com/nichegamer" target="_blank"> <img src="https://pbs.twimg.com/profile_images/1093281823189286912/zYUCSFK__400x400.jpg" alt="Niche's twitter"  title="Niche Gamer">
+			<a href="https://twitter.com/nichegamer" target="_blank"> <img src="https://pbs.twimg.com/profile_images/1093281823189286912/zYUCSFK__400x400.jpg" alt="Niche's twitter" title="Niche Gamer">
 		</a>
 		<ul>
 			<li>This is Niche Gamer and they are a frequent user of the NeoGAF Gaming forums site.</li>
