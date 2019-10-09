@@ -6,18 +6,18 @@
 		<link rel="stylesheet" type="text/css" href="persona.css">
 	</head>
 	<body>
-		<h1><strong>Niche's Interaction Flow</strong></h1>
+		<h1><strong>Roger's Interaction Flow</strong></h1>
 		<ul>
-			<li>Users logs in to check activity on their threads and checks for posts that breaks the thread rules. </li>
-			<li>User will either respond to other users or ban the users that are breaking the rules. </li>
-			<li>The User will click "reply" to respond to their correspondent user. </li>
-			<li>User is presented with an input box with many text tools and emoji menus. </li>
-			<li>User clicks "Submit" and is presented with a confirmation along with a preview of what they are trying to post. </li>
-			<li>If rules are broken the customer will click on the "Mod Tools" for further options to ban the user or just delete post. </li>
-			<li>By clicking "Ban" they will ban the user from posting on the thread again and remove all posts in that thread the banned user posted. </li>
-			<li>If the user clicks on "Delete Post" then that post is only removed from the thread but the user can still post in the thread. </li>
-			<li>User receives a confirmation message displaying the user or post that they are trying to ban or remove. </li>
-			<li>The banned user is now removed and can't see the thread when ever they search for it or look at their post history.</li>
+			<li>Users logs in to check activity on their threads and checks their conversations. </li>
+			<li>The User will click the Envelope icon to check recent conversations. </li>
+			<li>User is presented with menu showing their recent conversations along with "show all" to show all their
+				conversations in another page. </li>
+			<li>User can then read their conversations and choose to reply. </li>
+			<li>Customer then navigates to "Watched Threads" to check "threads you've started" and "threads in which
+				you've participated in" for their thread interaction history.</li>
+			<li>Both options takes user to another page with further thread interaction history options such as,
+				your threads, threads with your posts, unanswered threads, and watched threads (archived) </li>
+			<li>User can then choose how they would want to interact with those threads. </li>
 		</ul>
 	</body>
 </html>

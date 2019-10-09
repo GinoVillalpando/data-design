@@ -2,7 +2,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<Title>Index of Personas, Use Cases & Interation Flow</Title>
+		<Title> Index of Personas, Use Cases & Interation Flow </Title>
 		<link rel="stylesheet" type="text/css" href="index-styling.css">
 		<link rel="stylesheet" type="text/css" href="persona.css">
 	</head>
