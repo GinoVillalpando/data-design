@@ -14,9 +14,9 @@
 		<button class="buttons"><a href="case-interaction-flow.php" title="What is he even doing?" target="myFrame">
 				What Does Our User Typically Do On NeoGAF? </a></button>
 				<button class="buttons"><a href="Conceptual-Model.html" title="Conceptual Diagram" target="myFrame">
-				Conceptual Model and Entity Relationship Diagram
+				Conceptual Model
 				</a></button>
-		<button class="buttons"><a href="ERDDiagram.png" title="ERD" target="myFrame">Entity Diagram</a></button><br>
+		<button class="buttons"><a href="ERDDiagram.png" title="ERD" target="myFrame">Entity Relationship Diagram</a></button><br>
 		<iframe name="myFrame" src="https://mydata2017.org/wp-content/uploads/sites/6/2017/01/mydata_design_icon_web.jpg"
 				  class="myFrame">
 				</iframe>
