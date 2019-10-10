@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Conceptual Model</title>
+	<link rel="stylesheet" type="text/css" href="persona.css">
+</head>
+<body>
+	<h1>Profile</h1>
+		<ul>
+			<li>profileID (primary)</li>
+			<li>profileName (strong)</li>
+			<li>profileEmail (strong)</li>
+			<li>profileJoinedDate (strong)</li>
+			<li>profileLastSeen(strong)</li>
+			<li>profileMessageAmount(weak)</li>
+			<li>profilePostings (strong)</li>
+			<li>profileReactionScore (strong)</li>
+			<li>profilePoints (strong)</li>
+		</ul>
+	<h1>Threads</h1>
+		<ul>
+			<li>threadID (primary key)</li>
+			<li>threadProfileID (foreign key)</li>
+			<li>threadContent (strong)</li>
+			<li>threadName (strong)</li>
+			<li>threadDateTime (strong)</li>
+			<li>threadPages (strong)</li>
+			<li>threadPostAmount (strong)</li>
+			<li>threadArchive (strong)</li>
+			<li>threadAmount (weak)</li>
+		</ul>
+	<h1>Message</h1>
+		<ul>
+			<li>messageID(primary)</li>
+			<li>messageConversations(strong)</li>
+			<li>messageShowAll(strong)</li>
+			<li>messageProfileID (foreign key) </li>
+			<li>messageName(strong) </li>
+			<li>messageContent(strong)</li>
+			<li>messageDateTime(strong)</li>
+			<li>messageAmount(strong)</li>
+		</ul>
+	<h1>Communities</h1>
+		<ul>
+			<li>communitiesGamingDiscussions(strong)</li>
+			<li>communitiesGamingCommunity(strong)</li>
+			<li>communitiesOff-TopicDiscussions(strong)</li>
+			<li>communitiesPoliticsDiscussion(strong)</li>
+			<li>communitiesThreadArchive(weak)</li>
+			<li>communitiesPostAmount (weak) </li>
+			<li>communitiesProfileAmount(weak)</li>
+			<li>communitiesThreadAmount(weak)</li>
+			<li>communitiesLatestProfileID (foreign)</li>
+		</ul>
+</body>
+</html>

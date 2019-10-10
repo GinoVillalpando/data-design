@@ -16,8 +16,9 @@
 .myFrame {
 	position: absolute;
 	width: 800px;
-	height: 800px;
+	height: 1440px;
 	border: 0;
+	overflow: hidden;
 }
 
 a {
