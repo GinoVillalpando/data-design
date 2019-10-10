@@ -17,8 +17,8 @@
 				Conceptual Model
 				</a></button>
 		<button class="buttons"><a href="ERDDiagram.png" title="ERD" target="myFrame">Entity Relationship Diagram</a></button><br>
-		<iframe name="myFrame" src="https://mydata2017.org/wp-content/uploads/sites/6/2017/01/mydata_design_icon_web.jpg"
-				  class="myFrame">
+		<iframe name="myFrame" src="https://images.unsplash.com/photo-1534137667199-675a46e143f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+				  width="400" height="400" class="myFrame">
 				</iframe>
 		</body>
 </html>
