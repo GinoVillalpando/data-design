@@ -1,7 +1,7 @@
 .buttons {
 	background-color: #333333;
 	border: 1px solid whitesmoke;
-	padding: 10px 24px;
+	padding: 8px 16px;
 	cursor: pointer;
 	width: 50%;
 	display: block;
@@ -15,10 +15,12 @@
 
 .myFrame {
 	position: absolute;
-	width: 800px;
-	height: 800px;
-	border: 0;
+	width: 780px;
+	height: 970px;
+	top: 0;
+	left: 52%;
 	overflow: hidden;
+	border: 0;
 }
 
 a {
@@ -26,4 +28,9 @@ a {
 	font-size: 24px;
 	color: white;
 	text-decoration: none;
+}
+
+div {
+	position: absolute;
+	top: 10%;
 }

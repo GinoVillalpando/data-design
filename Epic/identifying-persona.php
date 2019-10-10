@@ -12,12 +12,14 @@
 		<ul>
 			<li>This is Roger Weeb and they are a frequent user of the NeoGAF Gaming forums site.</li>
 			<li>Roger Weeb is a typical user and mostly uses the site for community.</li>
-			<li>Roger Weeb doesn't have too many friends in their hometown and is mostly a home body, spending their free time on video games.</li>
+			<li>Roger Weeb doesn't have too many friends in their hometown and is mostly a home body, spending their free
+				time on video games.</li>
 			<li>Roger Weeb is a 25 year old man.</li>
-			<li>Roger Weeb is pretty tech savvy and owns a gaming pc (Windows 10) custom built with an AMD Ryzen 7 3900X processor
-				and RTX 2070super other branded gaming consoles.</li>
+			<li>Roger Weeb is pretty tech savvy and owns a gaming pc (Windows 10) custom built with an AMD Ryzen 7 3900X
+				processor and RTX 2070super<br> and other branded gaming consoles.</li>
 			<li>Roger Weeb is proficient in using the site since they use it nearly everyday to socialize with their online friends.</li>
-			<li>They have a love/hate relationship because they love the community aspect but would like more message and social features for other users they interact with on the site.</li>
+			<li>They have a love/hate relationship because they love the community aspect but would like more message and<br>
+				social features for other users they interact with on the site.</li>
 			<li>Roger Weeb is online community driven and needs a speedy forum site with more social features to connect with their friends.</li>
 			<li>Our website is one of the top forum sites for gaming and has the community to keep the user satisfied.</li>
 			<li>Given that the site is so populated, there are many threads that the customer is interested in.</li>
