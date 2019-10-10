@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="persona.css">
 	</head>
 	<body>
-		<h1><strong>Roger's Interaction Flow</strong></h1>
+		<h1><strong>Roger Weeb's Interaction Flow</strong></h1>
 		<ul>
 			<li>Users logs in to check activity on their threads and checks their conversations. </li>
 			<li>The User will click the Envelope icon to check recent conversations. </li>
