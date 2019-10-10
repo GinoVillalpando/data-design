@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>The Case/Interaction flow</title>
-		<link rel="stylesheet" type="text/css" href="persona.css">
+		<link rel="stylesheet" type="text/css" href="index-styling.css">
 	</head>
-	<body>
+	<body class="whitetext">
 		<h1><strong>Roger Weeb's Interaction Flow</strong></h1>
 		<ul>
 			<li>Users logs in to check activity on their threads and checks their conversations. </li>

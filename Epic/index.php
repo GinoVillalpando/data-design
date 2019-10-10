@@ -6,18 +6,18 @@
 		<link rel="stylesheet" type="text/css" href="index-styling.css">
 		<link rel="stylesheet" type="text/css" href="persona.css">
 	</head>
-		<body>
-			<div class="div">
-				<button class="buttons"><a href="identifying-persona.php" title="Soooo Amazing" target="myFrame"> Our Amazing User
-					</a></button>
-				<button class="buttons"><a href="user-story.php" title="They Want All The Things" target="myFrame"> What Our User
-				Wants from NeoGAF </a></button>
-				<button class="buttons"><a href="case-interaction-flow.php" title="What is he even doing?" target="myFrame">
-				What Does Our User Typically Do On NeoGAF? </a></button>
-				<button class="buttons"><a href="Conceptual-Model.html" title="Conceptual Diagram" target="myFrame">
+		<body class="bodycolor">
+			<div>
+				<a href="identifying-persona.php" title="Soooo Amazing" target="myFrame"><button class="buttons"> Our Amazing User
+					</button></a>
+				<a href="user-story.php" title="They Want All The Things" target="myFrame"><button class="buttons"> What Our User
+				Wants from NeoGAF </button></a>
+				<a href="case-interaction-flow.php" title="What is he even doing?" target="myFrame"><button class="buttons">
+				What Does Our User Typically Do On NeoGAF? </button></a>
+				<a href="Conceptual-Model.html" title="Conceptual Diagram" target="myFrame"><button class="buttons">
 				Conceptual Model
-					</a></button>
-				<button class="buttons"><a href="ERDDiagram.png" title="ERD" target="myFrame"> Entity Relationship Diagram</a></button><br>
+					</button></a>
+				<a href="ERDDiagram.png" title="ERD" target="myFrame"><button class="buttons"> Entity Relationship Diagram</button></a><br>
 					<iframe name="myFrame" src="photo-1511376777868-611b54f68947.jpeg"
 							  class="myFrame"></iframe>
 			</div>

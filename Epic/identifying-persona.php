@@ -3,9 +3,9 @@
   <head>
 	  <meta charset="UTF-8">
 	  <title>This page shows my Persona.</title>
-	  <link rel="stylesheet" type="text/css" href="persona.css">
+	  <link rel="stylesheet" type="text/css" href="index-styling.css">
   </head>
-	<body>
+	<body class="whitetext">
 	<h1>Roger Weeb!</h1>
 			<a href="https://www.neogaf.com/members/turkey-master-baster.748533/" target="_blank"> <img class="shiftimage" src="https://pbs.twimg.com/profile_images/1093281823189286912/zYUCSFK__400x400.jpg" alt="Niche's twitter" title="Niche Gamer">
 		</a>
