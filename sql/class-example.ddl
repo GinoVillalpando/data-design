@@ -15,12 +15,14 @@ CREATE TABLE profile (
 	-- this creates the attribute for the primary key
 	-- not null means the attribute is required!
 	profileId BINARY(16) NOT NULL,
-	profileMessageamount CHAR(32),
+	profileMessageamount VARCHAR(32),
 	profileName VARCHAR(32) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
 	-- to make something optional, exclude the not null
 	profileHash CHAR(97) NOT NULL,
 	profilePhone VARCHAR(32),
+	profileJoinedDate VARCHAR(32) NOT NULL,
+	profileLastseen VARCHAR(32) NOT NULL,
 	-- to make sure duplicate data cannot exist, create a unique index
 	UNIQUE(profileName),
 	UNIQUE(profileEmail),
@@ -28,34 +30,22 @@ CREATE TABLE profile (
 	PRIMARY KEY(profileId)
 );
 
--- create the tweet entity
-CREATE TABLE tweet (
-	-- this is for yet another primary key...
-	tweetId BINARY(16) NOT NULL,
-	-- this is for a foreign key
-	tweetProfileId BINARY(16) NOT NULL,
-	tweetContent VARCHAR(140) NOT NULL,
-	tweetDate DATETIME(6) NOT NULL,
-	-- this creates an index before making a foreign key
-	INDEX(tweetProfileId),
-	-- this creates the actual foreign key relation
-	FOREIGN KEY(tweetProfileId) REFERENCES profile(profileId),
-	-- and finally create the primary key
-	PRIMARY KEY(tweetId)
-);
-
 -- create the like entity (a weak entity from an m-to-n for profile --> tweet)
-CREATE TABLE `like` (
+CREATE TABLE message (
 	-- these are still foreign keys
-	likeProfileId BINARY(16) NOT NULL,
-	likeTweetId BINARY(16) NOT NULL,
-	likeDate DATETIME(6) NOT NULL,
+	messageId BINARY(16) NOT NULL,
+	messageSenderProfileId BINARY(16) NOT NULL,
+	messageReceiverProfileId BINARY(16) NOT NULL,
+	messageContent VARCHAR(320) NOT NULL,
+	messageDateTime DATETIME(6) NOT NULL,
+	messageSenderProfileName VARCHAR(16) NOT NULL,
+	messageReceiverProfileName VARCHAR(16) NOT NULL,
 	-- index the foreign keys
-	INDEX(likeProfileId),
-	INDEX(likeTweetId),
+	INDEX(messageSenderProfileId),
+	INDEX(messageReceiverProfileId),
 	-- create the foreign key relations
-	FOREIGN KEY(likeProfileId) REFERENCES profile(profileId),
-	FOREIGN KEY(likeTweetId) REFERENCES tweet(tweetId),
+	FOREIGN KEY(messageSenderProfileId) REFERENCES profile(profileId),
+	FOREIGN KEY(messageReceiverProfileId) REFERENCES profile(profileId),
 	-- finally, create a composite foreign key with the two foreign keys
-	PRIMARY KEY(likeProfileId, likeTweetId)
+	PRIMARY KEY(messageSenderProfileId, messageReceiverProfileId)
 );
