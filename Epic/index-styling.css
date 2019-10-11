@@ -8,9 +8,9 @@
 	background-color: #333333;
 	border: 1px solid #1E1E1E;
 	color: white;
-	padding: 10px 50px;
+	padding: 10px 10px;
 	cursor: pointer;
-	width: 25%;
+	width: 10%;
 	display: block;
 }
 .buttons:not(last-child) {
@@ -24,10 +24,10 @@
 	background-color: #1E1E1E;
 	color: white;
 	position: absolute;
-	width: 780px;
-	height: 970px;
+	width: 70%;
+	height: 100%;
 	top: 0;
-	left: 27%;
+	left: 15%;
 	border: 0;
 }
 
