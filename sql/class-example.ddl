@@ -1,5 +1,5 @@
 -- The statement below sets the collation of the database to utf8
-ALTER DATABASE your_database_name_CHANGE_ME CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+-- ALTER DATABASE your_database_name_CHANGE_ME CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 -- this is a comment in SQL (yes, the space is needed!)
 -- these statements will drop the tables and re-add them
@@ -15,14 +15,14 @@ CREATE TABLE profile (
 	-- this creates the attribute for the primary key
 	-- not null means the attribute is required!
 	profileId BINARY(16) NOT NULL,
-	profileActivationToken CHAR(32),
-	profileAtHandle VARCHAR(32) NOT NULL,
+	profileMessageamount CHAR(32),
+	profileName VARCHAR(32) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
 	-- to make something optional, exclude the not null
 	profileHash CHAR(97) NOT NULL,
 	profilePhone VARCHAR(32),
 	-- to make sure duplicate data cannot exist, create a unique index
-	UNIQUE(profileAtHandle),
+	UNIQUE(profileName),
 	UNIQUE(profileEmail),
 	-- this officiates the primary key for the entity
 	PRIMARY KEY(profileId)

@@ -8,7 +8,7 @@
 	<body class="whitetext">
 		<div>
 			<p><q cite="https://twitter.com/nichegamer/status/1181581677207752704">As a power user I want more social
-					features for the threads and conversations I create to keep an exciting social environment.</q>
+					features for the threads and conversations I create to keep an exciting social environment.</q><br>
 				-
 			<a href="https://twitter.com/nichegamer/status/1181581677207752704"><em> Roger Weeb </em></a></p><hr>
 		</div>
