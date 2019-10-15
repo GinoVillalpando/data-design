@@ -6,8 +6,7 @@
 -- this is akin to reformatting and reinstalling Windows (OS X never needs a reinstall...) ;)
 -- never ever ever ever ever ever ever ever ever ever ever ever ever ever ever ever ever ever ever ever
 -- do this on live data!!!!
-DROP TABLE IF EXISTS `like`;
-DROP TABLE IF EXISTS tweet;
+DROP TABLE IF EXISTS message;
 DROP TABLE IF EXISTS profile;
 
 -- the CREATE TABLE function is a function that takes tons of arguments to layout the table's schema
@@ -19,10 +18,10 @@ CREATE TABLE profile (
 	profileName VARCHAR(32) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
 	-- to make something optional, exclude the not null
-	profileHash CHAR(97) NOT NULL,
+	profileHash CHAR(16) NOT NULL,
 	profilePhone VARCHAR(32),
-	profileJoinedDate VARCHAR(32) NOT NULL,
-	profileLastseen VARCHAR(32) NOT NULL,
+	profileJoinedDate DATETIME(6) NOT NULL,
+	profileLastseen DATETIME(6) NOT NULL,
 	-- to make sure duplicate data cannot exist, create a unique index
 	UNIQUE(profileName),
 	UNIQUE(profileEmail),
